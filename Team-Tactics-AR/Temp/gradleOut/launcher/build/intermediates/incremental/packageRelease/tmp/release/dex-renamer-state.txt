@@ -1,0 +1,4 @@
+#Sat May 16 14:16:44 PDT 2020
+base.0=/Users/home/Documents/GitHub/Team-Tactics-AR/Team-Tactics-AR/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

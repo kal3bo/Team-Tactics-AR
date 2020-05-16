@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/home/Documents/GitHub/Team-Tactics-AR/Team-Tactics-AR/Temp/gradleOut/launcher/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml",
+            "map": [
+                {
+                    "source": "/Users/home/.gradle/caches/transforms-2/files-2.1/93060c97424112298f4362ba8b3b6099/res/values-fr/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,238,290,394,505",
+                        "endColumns": "47,51,103,110,67",
+                        "endOffsets": "237,289,393,504,572"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,107,163,271,386",
+                        "endColumns": "51,55,107,114,71",
+                        "endOffsets": "102,158,266,381,453"
+                    }
+                }
+            ]
+        }
+    ]
+}
