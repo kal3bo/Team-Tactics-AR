@@ -17,11 +17,15 @@ As proof of concept, an AR application will be designed with the ability to put 
 - Move players.
 - Rotate players.
 
-## Future
+
+## AR Tools and Target
 The app will be developed with AR Foundation Unity tools in a way it can be built in either: iOS and Android devices. The specific tools are listed to complete the features for this app:
 - Place 3D objects in QR code with AR: https://www.youtube.com/watch?v=o_z_Eb8Yh2g
 - Place 3D objects on a plane: https://www.youtube.com/watch?v=xguiSueY1Lw
 - Draw in AR: https://www.youtube.com/watch?v=ZvIgKOAZ1xc
+
+## Future
+As an opportunity to develop and sell the app if the proof of concept succeeds, a network solution will be designed to support the interconnectivity interaction between different smartphones that are in the same place, looking at the same QR code to work alongside with all the players and the coach.
 
 
 
