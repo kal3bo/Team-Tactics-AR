@@ -62,13 +62,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13034}
     - Class: 114
-      Script: {instanceID: 13212}
+      Script: {instanceID: 13092}
     - Class: 114
-      Script: {instanceID: 13354}
+      Script: {instanceID: 13214}
     - Class: 114
-      Script: {instanceID: 13390}
+      Script: {instanceID: 13356}
     - Class: 114
-      Script: {instanceID: 15264}
+      Script: {instanceID: 13392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -554,6 +554,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ImageTracking
+  - hash:
+      serializedVersion: 2
       Hash: 4632a1062ac8865f91f6bdfe3c0ff90c
     assemblyName: Unity.XR.ARKit.dll
     namespaceName: UnityEngine.XR.ARKit
@@ -714,12 +720,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ImageTracking
   platform: 9
   scenePathNames:
   - Assets/Scenes/AR Scene.unity
