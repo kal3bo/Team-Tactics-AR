@@ -7,11 +7,13 @@ using UnityEngine.XR.ARSubsystems;
 public class ARTapToPlace : MonoBehaviour
 {
     // Private Variables:
-    [SerializeField] private GameObject objectToPlace = null;
     [SerializeField] private GameObject placementIndicator = null;
+    [SerializeField] private GameObject[] players = null;
+    [SerializeField] private GameObject yellowTeamActive = null;
     private ARRaycastManager arRaycastManager;
     private Pose placementPose;
     private bool placementIsValid;
+    private int currentIndexAnimation = 0;
 
 
     // Private Methods:
@@ -61,6 +63,25 @@ public class ARTapToPlace : MonoBehaviour
 
     private void PlaceObject()
     {
-        Instantiate(objectToPlace, placementPose.position, placementPose.rotation);
+        Instantiate(players[currentIndexAnimation], placementPose.position, placementPose.rotation);
+    }
+
+    public void SwitchAnimation(int indexOfAnimation)
+    {
+        if(indexOfAnimation <= 3)
+        {
+            if (!yellowTeamActive.activeSelf)
+            {
+                currentIndexAnimation = indexOfAnimation + 4;
+            }
+            else
+            {
+                currentIndexAnimation = indexOfAnimation;
+            }
+        }
+        else
+        {
+            currentIndexAnimation = indexOfAnimation;
+        }
     }
 }

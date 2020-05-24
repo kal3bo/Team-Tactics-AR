@@ -3,8 +3,14 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ARTapToPlace
     - ImageTracking
+    - User_Interaction
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -21,6 +27,13 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   sceneClasses:
     Assets/Scenes/AR Scene.unity:
     - Class: 1
@@ -41,41 +54,85 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11448}
+      Script: {instanceID: 11192}
     - Class: 114
-      Script: {instanceID: 11810}
+      Script: {instanceID: 11430}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 12672}
+      Script: {instanceID: 11832}
     - Class: 114
-      Script: {instanceID: 12878}
+      Script: {instanceID: 11922}
     - Class: 114
-      Script: {instanceID: 13022}
+      Script: {instanceID: 11960}
     - Class: 114
-      Script: {instanceID: 13034}
+      Script: {instanceID: 12432}
     - Class: 114
-      Script: {instanceID: 13092}
+      Script: {instanceID: 12612}
     - Class: 114
-      Script: {instanceID: 13214}
+      Script: {instanceID: 12694}
     - Class: 114
-      Script: {instanceID: 13356}
+      Script: {instanceID: 12708}
     - Class: 114
-      Script: {instanceID: 13392}
+      Script: {instanceID: 12724}
+    - Class: 114
+      Script: {instanceID: 12900}
+    - Class: 114
+      Script: {instanceID: 13026}
+    - Class: 114
+      Script: {instanceID: 13044}
+    - Class: 114
+      Script: {instanceID: 13056}
+    - Class: 114
+      Script: {instanceID: 13114}
+    - Class: 114
+      Script: {instanceID: 13220}
+    - Class: 114
+      Script: {instanceID: 13236}
+    - Class: 114
+      Script: {instanceID: 13378}
+    - Class: 114
+      Script: {instanceID: 13414}
+    - Class: 114
+      Script: {instanceID: 13486}
+    - Class: 114
+      Script: {instanceID: 94206}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -536,7 +593,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 2ac60b8c74c9938127f2cb09cd3acd9f
+      Hash: 830649a9d0b368698b19f77774b52e35
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ARTapToPlace
@@ -720,7 +777,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5919e76ccedebf9c484e500c4f7c51a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: User_Interaction
   platform: 9
   scenePathNames:
   - Assets/Scenes/AR Scene.unity
-  playerPath: /Users/home/Documents/GitHub/Team-Tactics-AR/Team-Tactics-AR/Builds/iOS/Team-Tactics-V1
+  playerPath: /Users/home/Documents/GitHub/Team-Tactics-AR/Team-Tactics-AR/Builds/iOS/Team-Tactics-V2
