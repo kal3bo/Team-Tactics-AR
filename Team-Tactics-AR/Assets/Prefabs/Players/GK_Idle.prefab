@@ -1498,7 +1498,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815947024864366498}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: 0.223}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8002138104639369748}
@@ -1553,7 +1553,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 6247051609980503610}
   m_AABB:
-    m_Center: {x: -0.0025007818, y: -0.000000004656613, z: -0.00004953146}
+    m_Center: {x: -0.0025007818, y: -0.000000004656613, z: -0.14}
     m_Extent: {x: 0.012130351, y: 0.015584803, z: 0.016358685}
   m_DirtyAABB: 0
 --- !u!1 &1912962850570092352
@@ -4653,7 +4653,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: a41fdfcc93ee743408ef940014761a02, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

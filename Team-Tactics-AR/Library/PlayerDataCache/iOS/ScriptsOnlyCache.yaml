@@ -1,8 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ARTapToPlace
     - ImageTracking
+    - PlacePlayers
     - User_Interaction
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -58,6 +58,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 90
@@ -85,37 +87,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11960}
     - Class: 114
-      Script: {instanceID: 12432}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 12612}
+      Script: {instanceID: 12434}
     - Class: 114
-      Script: {instanceID: 12694}
+      Script: {instanceID: 12614}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 12696}
     - Class: 114
-      Script: {instanceID: 12724}
+      Script: {instanceID: 12710}
     - Class: 114
-      Script: {instanceID: 12900}
+      Script: {instanceID: 12726}
     - Class: 114
-      Script: {instanceID: 13026}
+      Script: {instanceID: 12902}
     - Class: 114
-      Script: {instanceID: 13044}
+      Script: {instanceID: 13028}
     - Class: 114
-      Script: {instanceID: 13056}
+      Script: {instanceID: 13058}
     - Class: 114
-      Script: {instanceID: 13114}
+      Script: {instanceID: 13116}
     - Class: 114
-      Script: {instanceID: 13220}
+      Script: {instanceID: 13222}
     - Class: 114
-      Script: {instanceID: 13236}
+      Script: {instanceID: 13238}
     - Class: 114
-      Script: {instanceID: 13378}
+      Script: {instanceID: 13380}
     - Class: 114
-      Script: {instanceID: 13414}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13488}
     - Class: 114
-      Script: {instanceID: 94206}
+      Script: {instanceID: 49714}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -125,6 +127,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -357,6 +363,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5919e76ccedebf9c484e500c4f7c51a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: User_Interaction
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -593,12 +605,6 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 830649a9d0b368698b19f77774b52e35
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ARTapToPlace
-  - hash:
-      serializedVersion: 2
       Hash: e1c35cdce946e9da77fe80a39c261608
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
@@ -779,11 +785,11 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 5919e76ccedebf9c484e500c4f7c51a3
+      Hash: 3e84bc7622dc86ae82693330b2eff691
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: User_Interaction
+    className: PlacePlayers
   platform: 9
   scenePathNames:
   - Assets/Scenes/AR Scene.unity
-  playerPath: /Users/home/Documents/GitHub/Team-Tactics-AR/Team-Tactics-AR/Builds/iOS/Team-Tactics-V2
+  playerPath: /Users/home/Documents/GitHub/Team-Tactics-AR/Team-Tactics-AR/Builds/iOS/Team-Tactics-V3

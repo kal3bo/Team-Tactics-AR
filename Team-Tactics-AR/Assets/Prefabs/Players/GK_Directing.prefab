@@ -6811,7 +6811,7 @@ GameObject:
   - component: {fileID: 5276664562192319707}
   - component: {fileID: 882932820136154310}
   m_Layer: 0
-  m_Name: Red_GK_Directing
+  m_Name: GK_Directing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6856,7 +6856,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 3654f722e64e345c8b36aeb585198b60, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
