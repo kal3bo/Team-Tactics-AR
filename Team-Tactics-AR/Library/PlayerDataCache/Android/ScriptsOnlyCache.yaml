@@ -81,27 +81,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11470}
     - Class: 114
-      Script: {instanceID: 11832}
+      Script: {instanceID: 11820}
     - Class: 114
-      Script: {instanceID: 11922}
+      Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 11960}
+      Script: {instanceID: 11924}
     - Class: 114
-      Script: {instanceID: 11970}
+      Script: {instanceID: 11962}
     - Class: 114
-      Script: {instanceID: 12434}
+      Script: {instanceID: 11972}
     - Class: 114
-      Script: {instanceID: 12614}
+      Script: {instanceID: 12436}
     - Class: 114
-      Script: {instanceID: 12696}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12710}
+      Script: {instanceID: 12698}
     - Class: 114
-      Script: {instanceID: 12726}
+      Script: {instanceID: 12712}
     - Class: 114
-      Script: {instanceID: 12902}
+      Script: {instanceID: 12728}
     - Class: 114
-      Script: {instanceID: 13028}
+      Script: {instanceID: 12904}
+    - Class: 114
+      Script: {instanceID: 13030}
     - Class: 114
       Script: {instanceID: 13058}
     - Class: 114
@@ -116,8 +118,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13416}
     - Class: 114
       Script: {instanceID: 13488}
-    - Class: 114
-      Script: {instanceID: 49714}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -327,6 +327,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 3e84bc7622dc86ae82693330b2eff691
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlacePlayers
   - hash:
       serializedVersion: 2
       Hash: d251bf88db6c95a6b1aa0b69298da9ef
@@ -783,13 +789,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 3e84bc7622dc86ae82693330b2eff691
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlacePlayers
   platform: 13
   scenePathNames:
   - Assets/Scenes/AR Scene.unity
-  playerPath: /Users/home/Documents/GitHub/Team-Tactics-AR/Team-Tactics-AR/Builds/Android/Team-Tactics-V3.apk
+  playerPath: /Users/home/Documents/GitHub/Team-Tactics-AR/Team-Tactics-AR/Builds/Android/Team-Tactics-AR-Final.apk
